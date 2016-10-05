@@ -64,18 +64,22 @@
                         </td>
                     </tr>
                     
-                     <tr>
+                    <tr>
                         <td>&nbsp;</td><td>&nbsp;</td>
                     </tr>
                     
                     <tr>
                         <td>This class is:</td>
                         <td>
-                            <input type="checkbox" name="class" value="awesome">Awesome
-                            <input type="checkbox" name="class" value="outstanding">Outstanding
-                             <input type="checkbox" name="class" value="exciting">Exciting
+                            <input type="checkbox" name="classEval" value="awesome">Awesome<br>
+                            <input type="checkbox" name="classEval" value="outstanding">Outstanding<br>
+                            <input type="checkbox" name="classEval" value="exciting">Exciting
                         </td>
                     </tr>   
+                    
+                    <tr>
+                        <td>&nbsp;</td><td>&nbsp;</td>
+                    </tr>
                     
                 </tbody>
             </table>
