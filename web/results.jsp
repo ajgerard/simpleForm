@@ -76,7 +76,29 @@
                                     out.println("none");
                             
                         %></td>
-                </tr> 
+                </tr>
+                
+                <tr>
+                    <td>What pets do you have?</td>
+                    <td><% 
+                        String[] myPet;
+                        
+                            myPet = request.getParameterValues("pet");
+                            
+                            if (myPet != null)
+                            {
+                                for(int i=0; i<myPet.length; i++)
+                                {
+                                    out.println(" " + myPet[i] + " ");
+                                }
+                            }
+                            
+                            else
+                            
+                                    out.println("none");
+                            
+                        %></td>
+                </tr>
             </tbody>    
         </table>
     </body>

@@ -84,6 +84,18 @@
                 </tbody>
             </table>
             
+            <br><br>
+            
+            <fieldset>
+                <legend>What pets do you have?</legend>
+                    <input type="checkbox" name="pet" value="cat">Cat
+                    <input type="checkbox" name="pet" value="dog">Dog
+                    <input type="checkbox" name="pet" value="fish">Fish
+                    <input type="checkbox" name="pet" value="bird">Bird
+            </fieldset>
+            
+            <br><br>
+            
             <input type="reset" value="Clear" id="clear">
             <input type="submit" value="Submit" id="submit">
             
