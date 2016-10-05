@@ -39,6 +39,21 @@
                             <input type="radio" name="gender" value="Male">Male
                             <input type="radio" name="gender" value="Female">Female
                         </td>
+                    </tr>   
+                    
+                    <tr>
+                        <td>Where were your born...</td>
+                        <td>
+                            <select name="state">
+                                <option value="">Choose a state...</option>
+                                <option value="IA">Iowa</option>
+                                <option value="IL">Illinois</option>
+                                <option value="MN">Minnesota</option>
+                                <option value="MO">Missouri</option>
+                                <option value="NE">Nebraska</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </td>
                     </tr>
                 </tbody>
             </table>
