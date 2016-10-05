@@ -34,12 +34,20 @@
                     </tr>
                     
                     <tr>
+                        <td>&nbsp;</td><td>&nbsp;</td>
+                    </tr>
+                    
+                    <tr>
                         <td>Gender:</td>
                         <td>
                             <input type="radio" name="gender" value="Male">Male
                             <input type="radio" name="gender" value="Female">Female
                         </td>
                     </tr>   
+                    
+                    <tr>
+                        <td>&nbsp;</td><td>&nbsp;</td>
+                    </tr>
                     
                     <tr>
                         <td>Where were your born...</td>
@@ -55,6 +63,20 @@
                             </select>
                         </td>
                     </tr>
+                    
+                     <tr>
+                        <td>&nbsp;</td><td>&nbsp;</td>
+                    </tr>
+                    
+                    <tr>
+                        <td>This class is:</td>
+                        <td>
+                            <input type="checkbox" name="class" value="awesome">Awesome
+                            <input type="checkbox" name="class" value="outstanding">Outstanding
+                             <input type="checkbox" name="class" value="exciting">Exciting
+                        </td>
+                    </tr>   
+                    
                 </tbody>
             </table>
             

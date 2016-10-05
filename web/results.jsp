@@ -14,7 +14,8 @@
         int agePlusOne = age + 1;
         String gender = request.getParameter("gender");
         String state = request.getParameter("state");
-        %>
+        String classType = request.getParameter("class");
+    %>
     
     <body>
         <h1>User Information</h1>
@@ -54,6 +55,11 @@
                 <tr>
                     <td>State:</td>
                     <td><%= state %></td>
+                </tr> 
+                
+                <tr>
+                    <td>This class is:</td>
+                    <td><%= classType %></td>
                 </tr> 
             </tbody>    
         </table>
